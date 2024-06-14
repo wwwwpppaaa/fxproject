@@ -1,7 +1,7 @@
 <template>
   <div class="login">
     <div class="login-box">
-      <img src="@/assets/login/login-l.png" alt="" />
+      <img src="@/assets/login/login-logo1.png" alt="" />
       <div class="login-form">
         <el-form ref="loginForm" :model="loginForm" :rules="loginRules">
           <div class="login-form-title">
@@ -10,7 +10,7 @@
               style="width: 149px; height: 38px"
               alt=""
             />
-            <!-- <span class="title-label">苍穹外卖</span> -->
+            <!-- <span class="title-label">福祥外卖</span> -->
           </div>
           <el-form-item prop="username">
             <el-input
