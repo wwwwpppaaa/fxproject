@@ -1,15 +1,16 @@
 <template>
   <div class="login">
     <div class="login-box">
-      <img src="@/assets/login/login-logo1.png" alt="" />
+      
       <div class="login-form">
         <el-form ref="loginForm" :model="loginForm" :rules="loginRules">
           <div class="login-form-title">
             <img
-              src="@/assets/login/icon_logo.png"
-              style="width: 149px; height: 38px"
+              src="@/assets/login/page-logo.png"
+              style="width: 100px; height: 100px"
               alt=""
             />
+            <span style="font-size: 25px;">福祥外卖</span>
             <!-- <span class="title-label">福祥外卖</span> -->
           </div>
           <el-form-item prop="username">
@@ -45,6 +46,7 @@
           </el-form-item>
         </el-form>
       </div>
+      <img src="@/assets/login/login-logo1.png" alt="" />
     </div>
   </div>
 </template>
@@ -206,11 +208,11 @@ export default class extends Vue {
   font-weight: 500;
   color: #333333;
   // background: #09a57a;
-  background-color: #ffc200;
+  background-color: #d05d34;
   &:hover,
   &:focus {
     // background: #09a57a;
-    background-color: #ffc200;
+    background-color: #d05d34;
     color: #ffffff;
   }
 }
