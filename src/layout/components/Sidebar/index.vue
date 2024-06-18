@@ -13,12 +13,13 @@
       /> -->
       <div v-if="!isCollapse"
            class="sidebar-logo">
-        <img src="@/assets/login/logo.png"
-             style="width: 120px; height: 31px">
+        <img src="@/assets/login/page-logo.png"
+             style="width: 80px; height: 30px">
+        <span style="font-size: larger;">福祥外卖</span>
       </div>
       <div v-else
            class="sidebar-logo-mini">
-        <img src="@/assets/login/mini-logo.png">
+        <img src="@/assets/login/page-logo.png">
       </div>
     </div>
     <el-scrollbar wrap-class="scrollbar-wrapper">
@@ -135,7 +136,8 @@ export default class extends Vue {
 <style lang="scss" scoped>
 .logo {
   text-align: center;
-  background-color: #ffc100;
+  background-color: pink;
+  // -webkit-linear-gradient(left,pink,lightblue,skyblue)
   padding: 15px 0 0;
   height: 60px;
   img {
