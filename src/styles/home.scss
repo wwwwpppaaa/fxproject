@@ -155,7 +155,7 @@ li {
 
     li {
       flex: 1;
-      background: #fffbf0;
+      background: rgb(253, 243, 244);
       border-radius: 4px;
       margin-left: 20px;
       padding: 20px;
@@ -329,7 +329,7 @@ li {
 
     li {
       flex: 1;
-      background: #fffbf0;
+      background: rgb(253, 243, 244);
       border-radius: 4px;
       margin-left: 20px;
       padding:20px;
@@ -339,7 +339,7 @@ li {
       &.add {
         width: 100px;
         flex: none;
-        background: #FFC100;
+        background: pink;
         border-radius: 4px;
         text-align: center;
         color: #333;
@@ -635,7 +635,7 @@ display: -webkit-box;
     }
     &.one{
       span{
-        background:#FFC100 ;
+        background:pink ;
       }
 
    }
