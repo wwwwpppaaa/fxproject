@@ -799,7 +799,7 @@ export default class extends Vue {
         display: inline-block;
         min-width: 53px;
         height: 32px;
-        background: #fbe396;
+        background: pink;
         border-radius: 4px;
         text-align: center;
         line-height: 32px;
@@ -808,7 +808,7 @@ export default class extends Vue {
         // padding: 12px 6px;
       }
       span {
-        color: #f2a402;
+        color: pink;
       }
     }
     .orderCancel {
